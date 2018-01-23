@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { AuthService } from './../auth/auth.service';
 
 @Component({
   selector: 'fb-login',
@@ -7,9 +6,4 @@ import { AuthService } from './../auth/auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-
-  constructor(public auth: AuthService) {
-    auth.handleAuthentication();
-  }
-  
 }
