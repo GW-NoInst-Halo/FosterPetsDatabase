@@ -1,0 +1,77 @@
+.text{
+  color: white;
+  padding: 0;
+}
+
+.header-placeholder{
+  width: 100%;
+  height: 80px;
+  background: yellow;
+}
+
+.nav-placeholder{
+  height: 40px;
+  background: brown;
+}
+
+.photo{
+  height: 500px;
+  background: green;
+}
+
+.bio{
+  height: 500px;
+  background: blue;
+  padding: 0;
+}
+
+.summary{
+  height: 35px;
+  margin-top: 340px;
+  background: purple;
+}
+
+.history{
+  height: 35px;
+  margin-top: auto;
+  background: pink;
+}
+
+.about-me{
+  height: 35px;
+  margin-top: auto;
+  background: tan;
+}
+
+.medical-health{
+  height: 35px;
+  margin-top: auto;
+  background: violet;
+}
+
+.adopt{
+  height: 300px;
+  background: red;
+}
+
+.search{
+  height: 300px;
+  background: orange;
+}
+
+.footer-placeholder{
+  height: 80px;
+  background: black;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.position-rev{
+  position: relative;
+}
