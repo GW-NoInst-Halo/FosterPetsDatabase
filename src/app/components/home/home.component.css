@@ -1,0 +1,35 @@
+.container {
+  background-color: #fff;
+}
+.jumbotron {
+  background: url("/assets/img/pup.jpeg") no-repeat center center;
+  background-size: cover;
+  min-height: 400px; 
+  border-radius: 0px;
+}
+
+h2, h3 {
+  font-weight: 200;
+}
+
+.cen {
+  text-align: center;
+}
+
+.pad {
+  padding: 3.5em;
+}
+
+.i_fix {
+  padding: 0.5em;
+  color: #e0a152;
+}
+
+#section_a > h4 {
+  font-weight: 300;
+}
+
+.border_special {
+  border: 1px solid #e0a152;
+  padding: 1em;
+}
