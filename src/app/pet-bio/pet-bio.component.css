@@ -4,7 +4,6 @@
 }
 
 .header-placeholder{
-  width: 100%;
   height: 80px;
   background: yellow;
 }
@@ -16,36 +15,126 @@
 
 .photo{
   height: 500px;
-  background: green;
+  background: url('https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/How%20to%20calm%20a%20hyper%20dog.jpg?itok=Vg7ueySi');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.breed{
+  font-size: 36px;
+  margin-left: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .bio{
   height: 500px;
   background: blue;
   padding: 0;
+  position: relative;
+}
+
+.tabs{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tab-title{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.tab-description{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 1170px){
+  .tab-description{
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 1169px) and (min-width: 1121px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 1028px){
+  .tab-description{
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1027px) and (min-width: 992px){
+  .tab-description{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 745px){
+  .bio{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 744px) and (min-width: 635px){
+  .bio{
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 634px) and (min-width: 570px){
+  .bio{
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 440px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 439px) and (min-width: 328px){
+  .tab-description{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 327px){
+  .tab-description{
+    font-size: 16.5px;
+  }
 }
 
 .summary{
   height: 35px;
-  margin-top: 340px;
+  width: 100%;
+  margin-top: auto;
   background: purple;
 }
 
 .history{
   height: 35px;
-  margin-top: auto;
+  width: 100%;
   background: pink;
 }
 
 .about-me{
   height: 35px;
-  margin-top: auto;
+  width: 100%;
   background: tan;
 }
 
 .medical-health{
   height: 35px;
-  margin-top: auto;
   background: violet;
 }
 
@@ -74,4 +163,12 @@
 
 .position-rev{
   position: relative;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-margin{
+  margin: 0;
 }
