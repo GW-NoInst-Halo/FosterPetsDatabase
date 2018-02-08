@@ -1,11 +1,73 @@
+/** Pet Bio **/
+
 .text{
-  color: white;
+  color: gray;
   padding: 0;
 }
 
 .header-placeholder{
-  height: 80px;
-  background: yellow;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.left-head{
+  float: left;
+  position: relative;
+  top: 10px;
+}
+
+.head{
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.quote{
+  font-weight: 300;
+  font-size: 21px;
+  position: relative;
+  margin-bottom: 0;
+  top: 15px;
+  left: 10px;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  background: url('https://d37zdviatz1qu.cloudfront.net/images/sku/PPC-XLARGE.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  margin: 0;
+}
+
+@media only screen and (max-width: 490px){
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+  .left{
+    clear: left;
+  }
+  .quote{
+    left: 0;
+    top: -5px;
+  }
+}
+
+@media only screen and (max-width: 324px){
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
+  .quote{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .head{
+    font-size: 34px;
+  }
 }
 
 .nav-placeholder{
@@ -29,7 +91,6 @@
 
 .bio{
   height: 500px;
-  background: blue;
   padding: 0;
   position: relative;
 }
@@ -114,38 +175,121 @@
   }
 }
 
+@media only screen and (max-width: 401px){
+  .photo{
+    height: 300px;
+  }
+  .breed{
+    font-size: 24px;
+  }
+}
 .summary{
   height: 35px;
   width: 100%;
-  margin-top: auto;
   background: purple;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .history{
   height: 35px;
   width: 100%;
   background: pink;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .about-me{
   height: 35px;
   width: 100%;
   background: tan;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .medical-health{
   height: 35px;
   background: violet;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
 }
 
 .adopt{
-  height: 300px;
-  background: red;
+  display: flex;
+  justify-content: center;
+}
+
+.adopt-button{
+  height: 280px;
+  width: 280px;
+}
+
+.adopt-quote{
+  padding: 10px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 32px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 436px){
+  .adopt-quote{
+    height: 60px;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 435px){
+  .adopt-quote{
+    height: 120px;
+    flex-direction: column;
+  }
 }
 
 .search{
-  height: 300px;
-  background: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.search-img{
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.more-adjust-i{
+  margin-top: 143px;
+  text-align: right;
+}
+
+.more-adjust-ii{
+  margin-top: 35px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px){
+  .more-adjust-i{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .more-adjust-ii{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .search-img{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
 }
 
 .footer-placeholder{
@@ -171,4 +315,8 @@
 
 .no-margin{
   margin: 0;
+}
+
+.left{
+  float: left;
 }
