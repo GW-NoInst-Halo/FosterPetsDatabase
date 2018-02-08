@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RoutingModule } from './app.routes';
 
 import { AppComponent } from './app.component';
-import { PetBioComponent } from './pet-bio/pet-bio.component';
+import { PetBioComponent } from './components/pet-bio/pet-bio.component';
 
 
 @NgModule({
