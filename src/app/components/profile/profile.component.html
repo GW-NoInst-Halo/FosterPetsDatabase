@@ -1,0 +1,2 @@
+<h1 *ngIf="!auth.isAuthenticated()">Please <a href="#" (click)="auth.login()">log in</a> to view your profile</h1>
+<h1 *ngIf="auth.isAuthenticated()">User Profile</h1>
