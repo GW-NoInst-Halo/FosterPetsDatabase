@@ -5,6 +5,7 @@ import { RoutingModule } from './app.routes';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
+import { SignupComponent } from './components/signup/signup.component';
 
 
 
@@ -12,6 +13,7 @@ import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawe
   declarations: [
     AppComponent,
     HomeComponent,
+    SignupComponent,
   
   ],
   imports: [
