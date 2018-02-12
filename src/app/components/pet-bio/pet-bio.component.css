@@ -43,33 +43,6 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 490px){
-  .logo{
-    height: 80px;
-    width: 80px;
-  }
-  .left{
-    clear: left;
-  }
-  .quote{
-    left: 0;
-    top: -5px;
-  }
-}
-
-@media only screen and (max-width: 324px){
-  .logo{
-    height: 70px;
-    width: 70px;
-  }
-  .quote{
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .head{
-    font-size: 34px;
-  }
-}
 /**
 .nav-placeholder{
   height: 40px;
@@ -117,74 +90,6 @@
   font-family: 'Indie Flower', cursive;
 }
 
-@media only screen and (max-width: 1320px) and (min-width: 1170px){
-  .tab-description{
-    font-size: 23px;
-  }
-}
-
-@media only screen and (max-width: 1169px) and (min-width: 1121px){
-  .tab-description{
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 1120px) and (min-width: 1028px){
-  .tab-description{
-    font-size: 21px;
-  }
-}
-
-@media only screen and (max-width: 1027px) and (min-width: 992px){
-  .tab-description{
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 991px) and (min-width: 745px){
-  .bio{
-    height: 400px;
-  }
-}
-
-@media only screen and (max-width: 744px) and (min-width: 635px){
-  .bio{
-    height: 440px;
-  }
-}
-
-@media only screen and (max-width: 634px) and (min-width: 570px){
-  .bio{
-    height: 470px;
-  }
-}
-
-@media only screen and (max-width: 500px) and (min-width: 440px){
-  .tab-description{
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 439px) and (min-width: 328px){
-  .tab-description{
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 327px){
-  .tab-description{
-    font-size: 16.5px;
-  }
-}
-
-@media only screen and (max-width: 401px){
-  .photo{
-    height: 300px;
-  }
-  .breed{
-    font-size: 24px;
-  }
-}
 .summary{
   height: 35px;
   width: 100%;
@@ -241,20 +146,6 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 991px) and (min-width: 436px){
-  .adopt-quote{
-    height: 60px;
-    flex-direction: row;
-  }
-}
-
-@media only screen and (max-width: 435px){
-  .adopt-quote{
-    height: 120px;
-    flex-direction: column;
-  }
-}
-
 .search{
   display: flex;
   justify-content: center;
@@ -277,21 +168,6 @@
 .more-adjust-ii{
   margin-top: 35px;
   text-align: center;
-}
-
-@media only screen and (max-width: 991px){
-  .more-adjust-i{
-    margin-top: 40px;
-    text-align: center;
-  }
-  .more-adjust-ii{
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  .search-img{
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
 }
 
 .footer-placeholder{
@@ -326,4 +202,164 @@
 
 .left{
   float: left;
+}
+
+@media only screen and (max-width: 508px){
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+  .left{
+    clear: left;
+  }
+  .quote{
+    left: 0;
+    top: -5px;
+  }
+}
+
+@media only screen and (max-width: 338px){
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
+  .quote{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .head{
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 1199px){
+  .tab-description{
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1119px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 1059px){
+  .tab-description{
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1060px) and (min-width: 992px){
+  .tab-description{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 773px){
+  .bio{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 772px) and (min-width: 663px){
+  .bio{
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 662px) and (min-width: 574px){
+  .bio{
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 469px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 470px) and (min-width: 353px){
+  .tab-description{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 354px) and (min-width: 287px){
+  .tab-description{
+    font-size: 16.5px;
+  }
+}
+
+@media only screen and (max-width: 302px){
+  .adopt-button{
+    height: 240px;
+    width: 240px;
+  }
+  .adopt-quote{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 286px){
+  .tab-description{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 275px){
+  .logo{
+    height: 60px;
+    width: 60px;
+  }
+  .quote{
+    font-size: 15px;
+    top: -9px;
+  }
+  .head{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 401px){
+  .photo{
+    height: 300px;
+  }
+  .breed{
+    font-size: 24px;
+  }
+  .tab-title{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 436px){
+  .adopt-quote{
+    height: 60px;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 465px){
+  .adopt-quote{
+    height: 120px;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .more-adjust-i{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .more-adjust-ii{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .search-img{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
 }
