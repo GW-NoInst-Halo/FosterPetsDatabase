@@ -9,6 +9,7 @@
   text-align: left;
   margin-bottom: 0;
   margin-top: 0;
+  padding-right: 0;
 }
 
 .left-head{
@@ -69,11 +70,12 @@
     font-size: 34px;
   }
 }
-
+/**
 .nav-placeholder{
   height: 40px;
   background: brown;
 }
+**/
 
 .photo{
   height: 500px;
@@ -303,6 +305,11 @@
 
 .clear-right{
   clear: right;
+}
+
+.clear{
+  clear: both;
+  margin-bottom: 0;
 }
 
 .position-rev{
