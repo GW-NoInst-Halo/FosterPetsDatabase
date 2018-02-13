@@ -1,0 +1,365 @@
+/** Pet Bio **/
+
+.text{
+  color: gray;
+  padding: 0;
+}
+
+.header-placeholder{
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-right: 0;
+}
+
+.left-head{
+  float: left;
+  position: relative;
+  top: 10px;
+}
+
+.head{
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.quote{
+  font-weight: 300;
+  font-size: 21px;
+  position: relative;
+  margin-bottom: 0;
+  top: 15px;
+  left: 10px;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  background: url('https://d37zdviatz1qu.cloudfront.net/images/sku/PPC-XLARGE.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  margin: 0;
+}
+
+/**
+.nav-placeholder{
+  height: 40px;
+  background: brown;
+}
+**/
+
+.photo{
+  height: 500px;
+  background: url('https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/How%20to%20calm%20a%20hyper%20dog.jpg?itok=Vg7ueySi');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.breed{
+  font-size: 36px;
+  margin-left: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.bio{
+  height: 500px;
+  padding: 0;
+  position: relative;
+}
+
+.tabs{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tab-title{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.tab-description{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.summary{
+  height: 35px;
+  width: 100%;
+  background: purple;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.history{
+  height: 35px;
+  width: 100%;
+  background: pink;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.about-me{
+  height: 35px;
+  width: 100%;
+  background: tan;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.medical-health{
+  height: 35px;
+  background: violet;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.adopt{
+  display: flex;
+  justify-content: center;
+}
+
+.adopt-button{
+  height: 280px;
+  width: 280px;
+}
+
+.adopt-quote{
+  padding: 10px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 32px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.search-img{
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.more-adjust-i{
+  margin-top: 143px;
+  text-align: right;
+}
+
+.more-adjust-ii{
+  margin-top: 35px;
+  text-align: center;
+}
+
+.footer-placeholder{
+  height: 80px;
+  background: black;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.clear{
+  clear: both;
+  margin-bottom: 0;
+}
+
+.position-rev{
+  position: relative;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.left{
+  float: left;
+}
+
+@media only screen and (max-width: 508px){
+  .logo{
+    height: 80px;
+    width: 80px;
+  }
+  .left{
+    clear: left;
+  }
+  .quote{
+    left: 0;
+    top: -5px;
+  }
+}
+
+@media only screen and (max-width: 338px){
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
+  .quote{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .head{
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 1199px){
+  .tab-description{
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1119px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1120px) and (min-width: 1059px){
+  .tab-description{
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 1060px) and (min-width: 992px){
+  .tab-description{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 773px){
+  .bio{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 772px) and (min-width: 663px){
+  .bio{
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 662px) and (min-width: 574px){
+  .bio{
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 469px){
+  .tab-description{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 470px) and (min-width: 353px){
+  .tab-description{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 354px) and (min-width: 287px){
+  .tab-description{
+    font-size: 16.5px;
+  }
+}
+
+@media only screen and (max-width: 302px){
+  .adopt-button{
+    height: 240px;
+    width: 240px;
+  }
+  .adopt-quote{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 286px){
+  .tab-description{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 275px){
+  .logo{
+    height: 60px;
+    width: 60px;
+  }
+  .quote{
+    font-size: 15px;
+    top: -9px;
+  }
+  .head{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 401px){
+  .photo{
+    height: 300px;
+  }
+  .breed{
+    font-size: 24px;
+  }
+  .tab-title{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 436px){
+  .adopt-quote{
+    height: 60px;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 465px){
+  .adopt-quote{
+    height: 120px;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .more-adjust-i{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .more-adjust-ii{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .search-img{
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}
