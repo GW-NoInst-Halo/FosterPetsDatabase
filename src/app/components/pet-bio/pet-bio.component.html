@@ -1,42 +1,9 @@
 <!-- Pet Bio -->
+
+<!-- The petBio body -->
 <!-- Page container -->
 <div class="container-fluid position-rev text no-padding no-margin">
 
-<!-- Header & navbar -->
-<div class="row-fluid">
-    <div class="col-md-12 header-placeholder">
-      <div class="left-head">
-        <div class="left">
-          <h1 class="head">Foster Pets</h1>
-        </div>
-        <div class="left">
-          <p class="quote">Bringing you fur buddies</p>
-        </div>
-      </div>
-      <div class="logo"></div>
-    </div>
-</div>
-<nav class="navbar navbar-default clear">
-    <div class="container">
-        <div class="navbar-header">
-            <a routerLink="/" class="navbar-brand">Foster Pets</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a routerLink="/">Home</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" *ngIf="!auth.isAuthenticated()" (click)="auth.login()">Log In</a></li>
-                <li><a href="#" *ngIf="auth.isAuthenticated()" (click)="auth.logout()">Log Out</a></li>
-                <li><a routerLink="/profile" *ngIf="auth.isAuthenticated()">Profile</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-    <!-- End of header & navbar -->
-
-<!-- The petBio body -->
 <div class="row-fluid">
   <div class="col-md-7 photo no-padding">
     <div class="breed">
@@ -48,12 +15,12 @@
   <div class="col-md-5 bio left no-padding">
     <div class="tab-title">Summary</div>
     <p class="tab-description">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
-       voluptatem nostrum quam cumque maiores mollitia alias a dolorum
-       numquam dolorem quaerat reprehenderit eius voluptates distinctio
-       itaque rem molestias. Illum, ullam. Lorem ipsum dolor sit amet,
-       consectetur adipisicing elit. Laudantium sequi, esse incidunt numquam
-       voluptates repudiandae ipsam modi sint quos dolorum. Quia cumque num quam
+      Hi people, I am not like other dogs at all. I like to keep
+      both myself and my area spotless. I know this sounds crazy for a
+      dog, but that is just the way I am. I can not stand being dirty
+      because it makes my fur all nasty. Other than that, I am mildly
+      active and know how to play safely with both adults and kids. Also,
+      I like rearranging shoes on the floor to make awesome color patterns.
     </p>
     <div class="tabs">
       <div class="summary">

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+
 import { ProfileComponent } from './components/profile/profile.component';
 import { PetBioComponent } from './components/pet-bio/pet-bio.component';
 
@@ -15,14 +16,9 @@ const routes: Routes = [
     path: 'profile',
     component: ProfileComponent
   },
-  {
-    path: 'pet-bio',
-    component: PetBioComponent
-  }
-  
 ];
 
-  
+
 @NgModule({
   imports: [
       RouterModule.forRoot(routes)
