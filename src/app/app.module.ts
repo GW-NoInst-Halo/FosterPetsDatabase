@@ -12,6 +12,8 @@ import { AUTH_PROVIDERS } from 'angular2-jwt';
 import { AuthService } from './services/auth.service';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +21,7 @@ import { AuthService } from './services/auth.service';
     HomeComponent,
     ProfileComponent,
     PetBioComponent,
+    
     AboutComponent
   ],
   imports: [
