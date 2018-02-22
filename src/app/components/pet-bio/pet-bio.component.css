@@ -61,6 +61,7 @@
 .breed{
   font-size: 36px;
   margin-left: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .bio{
@@ -79,18 +80,21 @@
   margin-left: 20px;
   margin-right: 20px;
   font-size: 36px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .tab-description{
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 22px;
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .summary{
   height: 35px;
   width: 100%;
   background: purple;
+  font-family: 'Indie Flower', cursive;
   font-size: 24px;
   padding-left: 20px;
 }
@@ -99,6 +103,7 @@
   height: 35px;
   width: 100%;
   background: pink;
+  font-family: 'Indie Flower', cursive;
   font-size: 24px;
   padding-left: 20px;
 }
@@ -107,6 +112,7 @@
   height: 35px;
   width: 100%;
   background: tan;
+  font-family: 'Indie Flower', cursive;
   font-size: 24px;
   padding-left: 20px;
 }
@@ -114,6 +120,7 @@
 .medical-health{
   height: 35px;
   background: violet;
+  font-family: 'Indie Flower', cursive;
   font-size: 24px;
   padding-left: 20px;
 }
@@ -135,6 +142,7 @@
   flex-direction: column;
   justify-content: space-around;
   font-size: 32px;
+  font-family: 'Indie Flower', cursive;
   text-align: center;
 }
 
@@ -142,6 +150,7 @@
   display: flex;
   justify-content: center;
   font-size: 32px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .search-img{
@@ -225,40 +234,31 @@
 
 @media only screen and (max-width: 1320px) and (min-width: 1199px){
   .tab-description{
-    font-size: 22px;
+    font-size: 23px;
   }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1119px){
   .tab-description{
-    font-size: 21px;
-  }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 992px){
-  .more-adjust-ii{
-    padding-left: 40px;
+    font-size: 22px;
   }
 }
 
 @media only screen and (max-width: 1120px) and (min-width: 1059px){
   .tab-description{
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 
 @media only screen and (max-width: 1060px) and (min-width: 992px){
   .tab-description{
-    font-size: 19px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 773px){
   .bio{
     height: 400px;
-  }
-  .more-adjust-ii{
-    padding: 0;
   }
 }
 
@@ -276,23 +276,23 @@
 
 @media only screen and (max-width: 575px) and (min-width: 469px){
   .tab-description{
-    font-size: 21px;
+    font-size: 22px;
   }
 }
 
-@media only screen and (max-width: 479px) and (min-width: 353px){
+@media only screen and (max-width: 470px) and (min-width: 353px){
   .tab-description{
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (max-width: 354px) and (min-width: 287px){
   .tab-description{
-    font-size: 15.5px;
+    font-size: 16.5px;
   }
 }
 
-@media only screen and (max-width: 322px){
+@media only screen and (max-width: 302px){
   .adopt-button{
     height: 240px;
     width: 240px;
@@ -304,7 +304,7 @@
 
 @media only screen and (max-width: 286px){
   .tab-description{
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -341,7 +341,7 @@
   }
 }
 
-@media only screen and (max-width: 489px){
+@media only screen and (max-width: 465px){
   .adopt-quote{
     height: 120px;
     flex-direction: column;

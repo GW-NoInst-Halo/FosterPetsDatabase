@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'signup',
+  selector: 'petdb',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
