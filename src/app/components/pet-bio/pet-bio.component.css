@@ -43,13 +43,6 @@
   margin: 0;
 }
 
-/**
-.nav-placeholder{
-  height: 40px;
-  background: brown;
-}
-**/
-
 .photo{
   height: 500px;
   background: url('https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/How%20to%20calm%20a%20hyper%20dog.jpg?itok=Vg7ueySi');
@@ -86,7 +79,7 @@
 .tab-description{
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -232,27 +225,21 @@
   }
 }
 
-@media only screen and (max-width: 1320px) and (min-width: 1199px){
-  .tab-description{
-    font-size: 23px;
-  }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 1119px){
-  .tab-description{
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 1120px) and (min-width: 1059px){
+@media only screen and (max-width: 1307px) and (min-width: 1253px){
   .tab-description{
     font-size: 21px;
   }
 }
 
-@media only screen and (max-width: 1060px) and (min-width: 992px){
+@media only screen and (max-width: 1252px) and (min-width: 1110px){
   .tab-description{
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1109px) and (min-width: 992px){
+  .tab-description{
+    font-size: 18.5px;
   }
 }
 
@@ -341,7 +328,7 @@
   }
 }
 
-@media only screen and (max-width: 465px){
+@media only screen and (max-width: 510px){
   .adopt-quote{
     height: 120px;
     flex-direction: column;
@@ -349,14 +336,26 @@
   }
 }
 
+@media only screen and (max-width: 1210px) and (min-width: 991px){
+  .more-adjust-ii{
+    text-align: right;
+    font-size: 24px;
+  }
+  .more-adjust-i{
+    font-size: 24px;
+  }
+}
+
 @media only screen and (max-width: 991px){
   .more-adjust-i{
     margin-top: 40px;
     text-align: center;
+    font-size: 32px;
   }
   .more-adjust-ii{
     margin-bottom: 40px;
     text-align: center;
+    font-size: 32px;
   }
   .search-img{
     margin-top: 20px;

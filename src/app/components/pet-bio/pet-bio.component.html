@@ -1,59 +1,19 @@
 <!-- Pet Bio -->
 <!-- Page container -->
 <div class="container-fluid position-rev text no-padding no-margin">
-
-<!-- Header & navbar -->
-<div class="row-fluid">
-    <div class="col-md-12 header-placeholder">
-      <div class="left-head">
-        <div class="left">
-          <h1 class="head">Foster Pets</h1>
-        </div>
-        <div class="left">
-          <p class="quote">Bringing you fur buddies</p>
-        </div>
-      </div>
-      <div class="logo"></div>
-    </div>
-</div>
-<nav class="navbar navbar-default clear">
-    <div class="container">
-        <div class="navbar-header">
-            <a routerLink="/" class="navbar-brand">Foster Pets</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a routerLink="/">Home</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" *ngIf="!auth.isAuthenticated()" (click)="auth.login()">Log In</a></li>
-                <li><a href="#" *ngIf="auth.isAuthenticated()" (click)="auth.logout()">Log Out</a></li>
-                <li><a routerLink="/profile" *ngIf="auth.isAuthenticated()">Profile</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-    <!-- End of header & navbar -->
-
 <!-- The petBio body -->
 <div class="row-fluid">
-  <div class="col-md-7 photo no-padding">
+  <div name="animalPic" class="col-md-7 photo">
     <div class="breed">
-      <p>German Sherpherd</p>
-      <p>No name</p>
+      <p name="petBreed">{{petBreed}}</p>
+      <p name="petName">{{petName}}</p>
     </div>
   </div>
 
-  <div class="col-md-5 bio left no-padding">
+  <div class="col-md-5 bio">
     <div class="tab-title">Summary</div>
-    <p class="tab-description">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
-       voluptatem nostrum quam cumque maiores mollitia alias a dolorum
-       numquam dolorem quaerat reprehenderit eius voluptates distinctio
-       itaque rem molestias. Illum, ullam. Lorem ipsum dolor sit amet,
-       consectetur adipisicing elit. Laudantium sequi, esse incidunt numquam
-       voluptates repudiandae ipsam modi sint quos dolorum. Quia cumque num quam
+    <p name="petBio" class="tab-description">
+      {{petBio}}
     </p>
     <div class="tabs">
       <div class="summary">
@@ -110,9 +70,8 @@
     <!-- End of the petBio body -->
 
 <!-- Footer -->
-<div class="row-fluid">
-  <div class="col-md-12 footer-placeholder"> FOOTER </div>
-</div>
+
     <!-- End of footer -->
 </div>
+
     <!-- End of page container -->
